@@ -1,0 +1,23 @@
+$main-color: #45A1CF;
+
+@mixin btn {
+  border-radius: 0.25rem;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  font-size: 0.5rem;
+  text-decoration: none;
+  color: white;
+  transition: all .2s ease-out;
+  &:focus {
+      outline: 0;
+  }
+}
+
+body {
+  background-color: #efefef;
+}
+
+.hidden {
+  display: none;
+}

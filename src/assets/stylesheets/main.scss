@@ -1,0 +1,27 @@
+#main {
+  margin: auto;
+  padding: 0.5rem 3rem;
+  max-width: 70rem;
+}
+.main__columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main__mode {
+  color: gray;
+}
+.main__show {
+  background-color: white;
+  padding: 1rem 0.5rem;
+  flex: 1;
+  min-width: 24rem;
+  margin: 0.25rem;
+}
+.main__edit {
+  flex: 1;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+  min-width: 24rem;
+  margin: 0.25rem;
+}

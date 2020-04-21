@@ -1,0 +1,51 @@
+.add-btn {
+  @include btn;
+  background-color: $main-color;
+  &:hover {
+    background-color: darken($main-color, 10);
+  }
+}
+.save-btn  {  
+  @include btn;
+  flex: 1;
+  background-color: #A4C520;
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+  margin-right: 0.5rem;
+  &:hover {
+    background-color: darken(#A4C520, 10);
+  }
+}
+.del-btn {
+  @include btn;
+  flex: 1;
+  background-color: #DA6272;
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+  margin-right: 0.5rem;
+  &:hover {
+    background-color: darken(#DA6272, 10);
+  }
+}
+.cancel-btn {
+  @include btn;
+  flex: 1;
+  background-color: #a9a9a9;
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+  &:hover {
+    background-color: darken(#a9a9a9, 10);
+  }
+}
+.textarea {
+  padding: 0.5rem;
+  width: 90%;
+  height: 16rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: solid 1px rgba(gray, 0.5);
+  &:focus {
+      outline: 0;
+  }
+}
